@@ -1,5 +1,5 @@
 // just wanted to see how this compiles vs my handmade solution
-// clang -O3 cfibo_ites.c -o cfibo_iter
+// clang -O3 cfibo_iter.c -o cfibo_iter
 
 #include <stdlib.h>
 #include <stdio.h>
