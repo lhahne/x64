@@ -63,6 +63,7 @@ incorrectArgs:
 
 done:
         pop      rbx                    ; undoes the stupid push at the beginning
+        mov      rax, 0
         ret
 
         section  .data
