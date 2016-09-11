@@ -67,5 +67,5 @@ done:
         ret
 
         section  .data
-format: db       "%i", 10, 0
+format: db       "%llu", 10, 0
 error:  db       "Need exactly one arg: the number of the fibonacci number to be computed", 10, 0

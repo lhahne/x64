@@ -5,7 +5,7 @@
 #include <stdio.h>
 #include <inttypes.h>
 
-int64_t fib(int64_t n) {
+uint64_t fib(uint64_t n) {
   if(n <= 0)
     return 0;
   if(n == 1)
@@ -20,7 +20,7 @@ int main(int argc, char const *argv[]) {
   }
 
   int n = atoi(argv[1]);
-  printf("%" PRIu64 "\n", fib(n));
+  printf("%llu\n", fib(n));
 
   return 0;
 }
